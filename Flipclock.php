@@ -52,7 +52,7 @@ class FlipClock extends InputWidget
         
 		$js[] = "var {$this->varName} =  new FlipClock($(" . Json::encode($this->selector) . "), " . Json::encode($this->time) . ", " . Json::encode($this->options) . ");";
        
-        $view->registerJs(implode("\n", $js),  \yii\web\View::POS_END, 'clock');
+        $view->registerJs(implode("\n", $js));
         
         
 
