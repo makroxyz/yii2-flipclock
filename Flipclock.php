@@ -6,10 +6,10 @@ namespace spevv\flipclock;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use yii\widgets\Block;
+use yii\widgets\InputWidget;
 
 
-class FlipClock extends Block
+class FlipClock extends InputWidget
 {
     /**
      * @var array Options of Flipclock.
