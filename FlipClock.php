@@ -6,10 +6,10 @@ namespace spevv\flipclock;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use yii\widgets\InputWidget;
+use yii\base\Widget;
 
 
-class FlipClock extends InputWidget
+class FlipClock extends Widget
 {
     /**
      * @var array Options of Flipclock.
@@ -48,7 +48,7 @@ class FlipClock extends InputWidget
         
         $view = $this->getView();
         
-        FlipclockAsset::register($view);
+        FlipClockAsset::register($view);
         
 		$js[] = "var {$this->varName} =  new FlipClock($(" . Json::encode($this->selector) . "), " . Json::encode($this->time) . ", " . Json::encode($this->options) . ");";
        

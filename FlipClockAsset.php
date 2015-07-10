@@ -5,7 +5,7 @@ namespace spevv\flipclock;
 
 use yii\web\AssetBundle;
 
-class FlipclockAsset extends AssetBundle
+class FlipClockAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/spevv/yii2-flipclock/assets'; 
 	
