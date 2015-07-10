@@ -31,7 +31,6 @@ Once the extension is installed, simply use it in your code by  :
 use spevv\flipclock\FlipClock;
 
 <?= FlipClock::widget([
-    'name' => 'name',
     'selector' => '#clock', // ID for the future DIV
     'time' => 60, // Seconds
     'varName' => 'clock', // Name of variable for control FlipClock
@@ -41,12 +40,3 @@ use spevv\flipclock\FlipClock;
 ]);
 ?>
 ```
-
-
-Useful URLs
------------
-
-
-<a href="http://flipclockjs.com/">Demo</a><br>
-<a href="https://github.com/objectivehtml/FlipClock">This is widget it wrapper of FlipClock </a><br>
-<a href="https://github.com/bupy7/yii-flipclock">This widget is extended by yii-flipclock</a><br>
