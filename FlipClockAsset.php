@@ -16,7 +16,7 @@ class FlipClockAsset extends AssetBundle
 
     public function init()
     {
-        $this->css[] = '/flipclock.css';
-        $this->js[] = '/flipclock.min.js';
+        $this->css[] = 'flipclock.css';
+        $this->js[] = 'flipclock.min.js';
     }
 } 
